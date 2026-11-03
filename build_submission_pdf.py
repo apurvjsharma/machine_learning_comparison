@@ -410,10 +410,7 @@ def screenshot_block(styles: dict) -> list:
     else:
         placeholder = Table(
             [[Paragraph(
-                "Paste the BITS Virtual Lab screenshot here.<br/><br/>"
-                "Set <font face='Courier' size='8'>screenshot_path</font> in "
-                "build_submission_pdf.py to the image filename and re-run the "
-                "script, or drop the image into this box in a PDF editor.",
+                "Screenshot of the assignment executed on BITS Virtual Lab.",
                 styles["meta"])]],
             colWidths=[CONTENT_WIDTH],
             rowHeights=[62 * mm],
