@@ -46,12 +46,12 @@ OUTPUT_PDF = PROJECT_ROOT / "ML_Assignment_2_Submission.pdf"
 # Fill these in before the final run.
 # ---------------------------------------------------------------------------
 SUBMISSION = {
-    "student_name": "<YOUR NAME>",
-    "student_id": "<YOUR BITS ID>",
+    "student_name": "Apurv Sharma",
+    "student_id": "2026AK05677",
     "course": "Machine Learning - Assignment 2",
     "programme": "M.Tech (AIML), WILP Division, BITS Pilani",
-    "github_url": "<PASTE YOUR GITHUB REPOSITORY URL HERE>",
-    "streamlit_url": "<PASTE YOUR STREAMLIT COMMUNITY CLOUD APP URL HERE>",
+    "github_url": "https://github.com/apurvjsharma/machine_learning_comparison",
+    "streamlit_url": "https://machinelearningcomparison-cadlpqlhr32b7b2nsrm5n4.streamlit.app/",
     # Path to the BITS Virtual Lab screenshot, e.g. "bits_lab_screenshot.png".
     # Leave as None to emit a labelled placeholder box instead.
     "screenshot_path": None,

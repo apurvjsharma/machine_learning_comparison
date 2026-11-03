@@ -126,9 +126,9 @@ probability-producing models.
 
 ## c. GitHub repository link
 
-> **`<PASTE YOUR GITHUB REPOSITORY URL HERE>`**
+> **https://github.com/apurvjsharma/machine_learning_comparison**
 >
-> **Live Streamlit app:** `<PASTE YOUR STREAMLIT COMMUNITY CLOUD URL HERE>`
+> **Live Streamlit app:** https://machinelearningcomparison-cadlpqlhr32b7b2nsrm5n4.streamlit.app/
 
 ### Repository contents
 
