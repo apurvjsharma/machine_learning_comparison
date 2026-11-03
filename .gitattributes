@@ -1,0 +1,19 @@
+# core.autocrlf is enabled on this machine and Git's content heuristic
+# classified the generated PDF as text, which would inject CRLF into it on the
+# next checkout and corrupt the file. Mark every binary artefact explicitly so
+# no newline translation is ever applied to it.
+*.pdf    binary
+*.joblib binary
+*.pkl    binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.zip    binary
+
+# Normalise text to LF in the repository. Streamlit Community Cloud checks the
+# repository out on Linux, so LF is what should be stored.
+*.py     text eol=lf
+*.md     text eol=lf
+*.txt    text eol=lf
+*.json   text eol=lf
+*.csv    text eol=lf
